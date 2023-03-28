@@ -1,0 +1,537 @@
+html, body
+{
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+input[type="text"]
+{
+	height: 45px;
+}
+
+li
+{
+	height: 100%;
+}
+
+#todo
+{
+	height: auto;
+	min-height: 100vh;
+	padding: 0px;
+	margin: 0px;
+	font-family: Helvetica Neue;
+}
+
+#page1
+{
+	width: 100%;
+	height: 100vh;
+}
+
+.navbar
+{
+	min-height: 70px;
+	background-color: #ededed;
+	border: 0px;
+	margin: 0px;
+}
+
+.navbar-nav
+{
+	height: 100%;
+	position: absolute;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.opciones-menu1
+{
+	margin-right: 51px;
+}
+
+.opciones-menu2
+{
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 14px;
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: left;
+	color: #6c818d;
+	cursor: pointer;
+}
+
+.active
+{
+	background-color: #48958d;
+	color: #fefefe;
+	cursor: default;
+}
+
+.linea-hr
+{
+	height: 3px;
+	background-color: #7fc4bf;
+	margin-top: 3%;
+}
+
+#page1
+{
+	margin-top: 70px;
+	height: 100px;
+	background-image: url('../img/layer-13@3x.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#page1 #texto-inicial
+{
+	position: absolute;
+	top: 41%;
+	font-size: 36px;
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: center;
+	color: #ffffff;
+}
+
+#page1 #boton-formulario #boton-quiero
+{
+	background-color: #f1ad43;
+}
+
+#page1 #chevron
+{
+	background-image: url('../img/chevron-with-circle-down.png');
+	height: 47px;
+	width: 47px;
+	margin: 0 auto;
+	cursor: pointer;
+}
+
+#page-form
+{
+	background-color: #f5f5f5;
+	height: 100vh;
+	font-size: 14px;
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: left;
+	color: #6c818d;
+}
+
+#page-form .form-columna
+{
+	height: 100%;
+}
+
+#page-form .form-columna #link-acepto
+{
+	font-size: 14px;
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: left;
+	text-decoration: underline;
+}
+
+#page-form .form-columna #boton
+{
+	background-color: #f1ad43;
+	position: absolute;
+	left: 50%;
+}
+
+#page2
+{
+	height: 100px;
+	background-color: #ffffff;
+}
+
+#page2 #text-por-que
+{
+	margin-top: 1%;
+	font-size: 36px;
+  	font-weight: 300;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: normal;
+  	letter-spacing: normal;
+  	text-align: center;
+  	color: #000000;
+}
+
+#page2 #text-optimizer-es
+{
+	margin-top: 24px;
+	font-family: inherit;
+  	font-size: 15px;
+  	font-weight: 300;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: 1.47;
+  	letter-spacing: normal;
+  	text-align: center;
+  	color: #6c818d;
+}
+
+#page2 #circulos
+{
+	margin-top: 31px;
+}
+
+#page2 #circulos #primer-circulo #light-bulb
+{
+	height: 169px;
+	width: 169px;
+	background-image: url('../img/light-bulb.png');
+	margin: 0 auto;
+}
+
+#page2 #circulos .text-bajo-circulo
+{
+	font-family: inherit;
+  	font-size: 16px;
+  	font-weight: 500;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: normal;
+  	letter-spacing: normal;
+  	text-align: center;
+  	color: #000000;
+  	margin: 0 auto;
+  	margin-top: 1%;
+}
+
+#page2 #circulos .texto-bajo-linea-hr
+{
+	font-family: inherit;
+	font-size: 14px;
+  	font-weight: 300;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: 1.43;
+  	letter-spacing: normal;
+  	text-align: justify;
+  	color: #6c818d;
+  	margin-top: 1%;
+}
+
+#page2 #circulos #segundo-circulo #flash
+{
+	height: 169px;
+	width: 169px;
+	background-image: url('../img/flash.png');
+	margin: 0 auto;
+}
+
+#page2 #circulos #tercer-circulo #thumbs-up
+{
+	height: 169px;
+	width: 169px;
+	background-image: url('../img/thumbs-up.png');
+	margin: 0 auto;
+}
+
+#page3
+{
+	height: 100px;
+}
+
+#page3 #izquierda
+{
+	width: 45%;
+	height: 100%;
+	background-image: url('../img/layer-13-copy@2x.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#page3 #derecha
+{
+	width: 55%;
+	height: 100%;
+	background-color: #f5f5f5;
+	float: left;
+}
+
+#page3 #derecha #textos-derecha #texto-derecha-como-funciona
+{
+	font-family: inherit;
+  	font-size: 36px;
+  	font-weight: 300;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: normal;
+  	letter-spacing: normal;
+  	text-align: left;
+  	color: #000000;
+}
+
+#page3 #derecha #textos-derecha
+{
+	height: auto;
+}
+
+#page3 #derecha #textos-derecha ul
+{
+	margin-top: 41px;
+}
+
+#page3 #derecha #textos-derecha ul li
+{
+	list-style-type: disc;
+	color: #6c818d;
+	margin-top: 20px;
+}
+
+.soft
+{
+	font-family: inherit;
+	font-size: 14px;
+  	font-weight: 300;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: 1.43;
+  	letter-spacing: normal;
+  	text-align: justify;
+  	color: #6c818d;
+}
+
+#page4
+{
+	height: 100px;
+	background-image: url('../img/fondo-inteligente-vectorial@3x.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#page4 .comentario
+{
+	font-family: inherit;
+  	font-size: 36px;
+  	font-weight: 200;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: normal;
+  	letter-spacing: normal;
+  	text-align: center;
+  	color: #ffffff;
+  	position: absolute;
+  	top: 50%;
+}
+
+#page5
+{
+	height: 100px;
+	background-color: #f5f5f5;
+}
+
+#page5 #arriba
+{
+	height: 65%;
+}
+
+#page5 #abajo
+{
+	height: 35%;
+	background: #ededed;
+}
+
+#page5 #arriba #izquierda
+{
+	background-color: #f5f5f5;
+	height: 100%;
+}
+
+#page5 #arriba #izquierda #row-google
+{
+	height: 100%;
+}
+
+#page5 #arriba #izquierda #row-google #google-partner
+{
+	height: 32%;
+	width: 45%;
+	background-image: url('../img/capa-1@2x.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 43%;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#page5 #arriba #derecha
+{
+	background-color: #ffffff;
+	height: 100%;
+}
+
+#page5 #arriba #derecha #envuelve-todo
+{
+	height: auto;
+	position: absolute;
+	top: 50%;
+}
+
+#page5 #arriba #derecha #envuelve-todo #envuelve-texto
+{
+	height: auto;
+	width: auto;
+	margin-left: 55px;
+}
+
+#page5 #arriba #derecha #envuelve-todo #envuelve-texto #texto-ellos-confiaron
+{
+	font-family: inherit;
+	font-size: 30px;
+  	font-weight: 300;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: normal;
+  	letter-spacing: normal;
+  	text-align: center;
+  	color: #000000;
+}
+
+#page5 #arriba #derecha #envuelve-circulos
+{
+	margin-top: 30px;
+}
+
+#page5 #arriba #derecha #envuelve-circulos .circulo
+{
+	height: 95px;
+	width: 95px;
+	border-radius: 47.5px;
+	background: #ededed;
+	margin-left: 50px;
+	float: left;
+}
+
+#page5 #abajo #envuelve-footer
+{
+	height: auto;
+	width: auto;
+	position: absolute;
+	top: 50%;
+}
+
+#page5 #abajo #izquierda
+{
+	height: 100%;
+}
+
+#page5 #abajo #izquierda #logo
+{
+	background-image: url('../img/logo-inteligente-vectorial@2x.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 57px;
+	width: 241px;
+	float: left;
+	position: absolute;
+	top: 50%;
+}
+
+#page5 #abajo #centro
+{
+	height: 100%;
+}
+
+#page5 #abajo #centro #opciones
+{
+	height: 14px;
+	font-family: inherit;
+  	font-size: 14px;
+  	font-weight: 300;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: normal;
+  	letter-spacing: normal;
+  	text-align: left;
+  	color: #6c818d;
+  	float: left;
+  	position: absolute;
+  	top: 50%;
+}
+
+#page5 #abajo #envuelve-footer #row1 #opciones .textos
+{
+	float: left;
+	margin-top: 22px;
+	margin-left: 3%;
+}
+
+#page5 #centro
+{
+	height: 100%;
+}
+
+#page5 #centro #contacto
+{
+	font-family: inherit;
+  	font-size: 12px;
+  	font-weight: 300;
+  	font-style: normal;
+  	font-stretch: normal;
+  	line-height: 1.5;
+  	letter-spacing: normal;
+  	text-align: center;
+  	color: #6c818d;
+  	margin-top: 5%;
+}
+
+#page5 #derecha
+{
+	height: 100%;
+}
+
+#page5 #derecha #botones
+{
+	position: absolute;
+	top: 50%;
+}
+
+#page5 #derecha #facebook
+{
+	height: 42px;
+	width: 42px;
+	background-image: url('../img/facebook-with-circle@3x.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#page5 #derecha #youtube
+{
+	height: 42px;
+	width: 42px;
+	background-image: url('../img/youtube-with-circle@3x.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#page5 #derecha #linkedin
+{
+	height: 42px;
+	width: 42px;
+	background-image: url('../img/linkedin-with-circle@3x.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}

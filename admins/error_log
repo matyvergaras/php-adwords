@@ -1,0 +1,76 @@
+[08-Oct-2016 00:48:50 UTC] PHP Warning:  include_once(../inicio/admin.php): failed to open stream: No such file or directory in /home/audience2015/public_html/adwords/admins/validalogin.php on line 3
+[08-Oct-2016 00:48:50 UTC] PHP Warning:  include_once(): Failed opening '../inicio/admin.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/audience2015/public_html/adwords/admins/validalogin.php on line 3
+[08-Oct-2016 00:48:50 UTC] PHP Fatal error:  Class 'Admin' not found in /home/audience2015/public_html/adwords/admins/validalogin.php on line 7
+[08-Oct-2016 00:55:12 UTC] PHP Warning:  include_once(../inicio/admin.php): failed to open stream: No such file or directory in /home/audience2015/public_html/adwords/admins/validalogin.php on line 3
+[08-Oct-2016 00:55:12 UTC] PHP Warning:  include_once(): Failed opening '../inicio/admin.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/audience2015/public_html/adwords/admins/validalogin.php on line 3
+[08-Oct-2016 00:55:12 UTC] PHP Fatal error:  Class 'Admin' not found in /home/audience2015/public_html/adwords/admins/validalogin.php on line 7
+[08-Oct-2016 00:55:35 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:35 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:35 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:35 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:35 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:35 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:35 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:35 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:35 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:35 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:35 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:35 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:35 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:35 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:38 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:38 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:38 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:38 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:38 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:38 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:38 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:38 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:38 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:38 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:38 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:38 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:38 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:38 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:38 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:38 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:38 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:38 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:38 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:38 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:38 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:44 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:44 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:44 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:44 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:44 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:44 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:44 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:44 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:44 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:44 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:44 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:44 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:44 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:44 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:47 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:47 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:47 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:47 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:47 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:47 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:47 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:47 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:47 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:47 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:47 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:47 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:47 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:47 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:47 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:47 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:47 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:47 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:47 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:47 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211
+[08-Oct-2016 00:55:47 UTC] PHP Deprecated:  Function eregi() is deprecated in /home/audience2015/public_html/adwords/inicio/arraylist.php on line 211

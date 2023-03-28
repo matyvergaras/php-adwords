@@ -1,0 +1,437 @@
+html, body
+{
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Helvetica Neue', Helvetica;
+}
+
+#todo
+{
+	height: auto;
+	min-height: 100vh;
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Helvetica Neue', Helvetica;
+}
+
+#barra-menu
+{
+	height: 70px;
+	background-color: #ededed;
+}
+
+#barra-menu #logo-optimizer
+{
+	height: 42px;
+	width: 179px;
+	background-image: url('../img/objeto-inteligente-vectorial.png');
+	position: absolute;
+	margin-top: 14px;
+}
+
+#barra-menu #texto-quieres-optimizar
+{
+	font-family: inherit;
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: left;
+	color: #6c818d;
+	margin-top: 16px;
+  width: 200px;
+  float: right;
+}
+
+#barra-menu #texto-quieres-optimizar a
+{
+	font-family: inherit;
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: left;
+	color: #6c818d;
+	margin-top: 26px;
+	text-decoration: none;
+}
+
+#barra-menu #texto-quieres-optimizar a: hover
+{
+	font-family: inherit;
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: left;
+	color: #6c818d;
+	margin-top: 26px;
+	text-decoration: none;
+}
+
+#barra-menu #texto-quieres-optimizar a: visited
+{
+	font-family: inherit;
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: left;
+	color: #6c818d;
+	margin-top: 26px;
+	text-decoration: none;
+}
+
+#barra-gris
+{
+	height: 4px;
+	background-color: #d4d4d4;
+}
+
+#graficos
+{
+	height: 600px;
+	background-color: #ffffff;
+}
+
+#graficos #texto-resumen
+{
+	font-family: inherit;
+	font-size: 28px;
+	font-weight: 200;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: center;
+	color: #000000;
+	margin-top: 94px;
+}
+
+#graficos #circulitos
+{
+  margin-top: 23px;
+}
+
+#graficos #circulitos .circulo-ejemplo
+{
+  height: 200px;
+  width: 200px;
+}
+
+#graficos #circulitos .texto-bajo-circulo-ejemplo
+{
+  width: 200px;
+  font-family: inherit;
+  font-size: 11.8px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 6.89;
+  letter-spacing: 0.2px;
+  color: #000000;
+  text-align: center;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+#graficos #circulitos .text-como-mejorar
+{
+  width: 200px;
+  font-family: inherit;
+  font-size: 14.5px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.3px;
+  text-align: center;
+  color: #6c818d;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+#graficos #circulitos .botones-bajo-circulos
+{
+  margin-top: 20px;
+  width: 200px;
+  font-family: inherit;
+  font-size: 11.8px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #000000;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+#explicaciones
+{
+  background-color: #f5f5f5;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#explicaciones #tu-reporte
+{
+  font-family: inherit;
+    font-size: 36px;
+    font-weight: 200;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+#explicaciones .explicacion
+{
+  height: auto;
+  border: solid 1px #cccccc;
+  border-radius: 4px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+#explicaciones .explicacion .fila
+{
+  height: 36px;
+  margin-top: 21px;
+  margin-left: 11px;
+}
+
+#explicaciones .explicacion .fila .imagen-bien
+{
+  height: 36px;
+  width: 36px;
+  background-image: url('../img/inteligente-vectorial@3x.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  float: left;
+}
+
+#explicaciones .explicacion .fila .imagen-mal
+{
+  height: 36px;
+  width: 36px;
+  background-image: url('../img/cross-inteligente-vectorial@3x.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  float: left;
+}
+
+#explicaciones .explicacion .fila .titulo-explicacion
+{
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+  float: left;
+  margin-top: 2px;
+  margin-left: 5px;
+}
+
+#explicaciones .explicacion .fila .numero
+{
+  font-family: inherit;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #000000;
+  float: right;
+  margin-right: 11px;
+}
+
+#explicaciones .explicacion .fila2
+{
+  height: auto;
+  margin-top: 0px;
+  margin-bottom: 21px;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #6c818d;
+  margin-left: 12px;
+}
+
+#explicaciones #barra-botones
+{
+  margin-top: 30px;
+}
+
+#explicaciones #barra-botones #input-caja-correo
+{
+  height: 46px;
+  border: solid 1px #ccc;
+  border-radius: 6px;
+  float: left;
+  margin-left: 0px;
+}
+
+#explicaciones #barra-botones #boton-pdf
+{
+  font-size: 11px;
+  margin-bottom: 18px;
+}
+
+#explicaciones #barra-botones #boton-correo
+{
+  font-size: 11px;
+  margin-bottom: 18px;
+}
+
+#explicaciones #barra-botones #btn-quieres-mejorar
+{
+  margin-top: 30px;
+  border: solid 2px #efa223;
+  font-size: 14px;
+}
+
+#footer
+{
+  height: 176px;
+  background-color: #ededed;
+}
+
+#footer #abajo
+{
+  height: 35%;
+  background: #ededed;
+}
+
+#footer #envuelve-footer
+{
+  height: auto;
+  width: auto;
+  position: absolute;
+  top: 50%;
+}
+
+#footer #izquierda
+{
+  height: 100%;
+}
+
+#footer #izquierda #logo
+{
+  background-image: url('../img/logo-inteligente-vectorial.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 38px;
+  width: 152px;
+  float: left;
+  position: absolute;
+  top: 50%;
+}
+
+#footer #centro
+{
+  height: 100%;
+}
+
+#footer #centro #opciones
+{
+  height: 14px;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #6c818d;
+  float: left;
+  position: absolute;
+  top: 60%;
+  height: auto;
+}
+
+#footer #opciones .textos
+{
+  float: left;
+  margin-top: 22px;
+  margin-left: 3%;
+}
+
+#footer #opciones #contacto
+{
+  margin-top: 20px;
+  font-size: 12px;
+  text-align: center;
+}
+
+#footer #derecha
+{
+  height: 100%;
+}
+
+#footer #derecha #botones
+{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#footer #derecha #botones #facebook
+{
+  height: 42px;
+  width: 42px;
+  background-image: url('../img/facebook-with-circle@3x.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#footer #derecha #botones #youtube
+{
+  height: 42px;
+  width: 42px;
+  background-image: url('../img/youtube-with-circle@3x.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#footer #derecha #botones #linkedin
+{
+  height: 42px;
+  width: 42px;
+  background-image: url('../img/linkedin-with-circle@3x.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.active
+{
+  height: 130px;
+  background-color: #ffffff;
+}

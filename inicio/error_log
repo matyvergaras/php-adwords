@@ -1,0 +1,242 @@
+[05-Sep-2016 12:22:48 UTC] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [CustomerError.ACCOUNT_NOT_SET_UP @ ] in /home/audience2015/public_html/adwords/inicio/AdsSoapClient.php:216
+Stack trace:
+#0 /home/audience2015/public_html/adwords/inicio/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/audience2015/public_html/adwords/inicio/CustomerService.php(2914): AdsSoapClient->__soapCall('get', Array)
+#2 /home/audience2015/public_html/adwords/inicio/traedatos.php(34): CustomerService->get()
+#3 /home/audience2015/public_html/adwords/inicio/obtenercampanas.php(13): Traedatos->__construct('4/DMqWetVT-oZKZ...')
+#4 {main}
+  thrown in /home/audience2015/public_html/adwords/inicio/AdsSoapClient.php on line 216
+[05-Sep-2016 15:37:32 UTC] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.NOT_ADS_USER @ ; trigger:'<null>'] in /home/audience2015/public_html/adwords/inicio/AdsSoapClient.php:216
+Stack trace:
+#0 /home/audience2015/public_html/adwords/inicio/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/audience2015/public_html/adwords/inicio/CustomerService.php(2914): AdsSoapClient->__soapCall('get', Array)
+#2 /home/audience2015/public_html/adwords/inicio/traedatos.php(34): CustomerService->get()
+#3 /home/audience2015/public_html/adwords/inicio/obtenercampanas.php(13): Traedatos->__construct('4/pX9kHvb3unCo7...')
+#4 {main}
+  thrown in /home/audience2015/public_html/adwords/inicio/AdsSoapClient.php on line 216
+[05-Sep-2016 15:37:43 UTC] PHP Fatal error:  Uncaught exception 'OAuth2Exception' with message '{
+  "error" : "invalid_grant",
+  "error_description" : "Code was already redeemed."
+}' in /home/audience2015/public_html/adwords/inicio/SimpleOAuth2Handler.php:119
+Stack trace:
+#0 /home/audience2015/public_html/adwords/inicio/SimpleOAuth2Handler.php(72): SimpleOAuth2Handler->MakeRequest('https://account...', Array)
+#1 /home/audience2015/public_html/adwords/inicio/traedatos.php(24): SimpleOAuth2Handler->GetAccessToken(Array, '4/pX9kHvb3unCo7...', 'http://www.audi...')
+#2 /home/audience2015/public_html/adwords/inicio/obtenercampanas.php(13): Traedatos->__construct('4/pX9kHvb3unCo7...')
+#3 {main}
+  thrown in /home/audience2015/public_html/adwords/inicio/SimpleOAuth2Handler.php on line 119
+[05-Sep-2016 15:38:10 UTC] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.NOT_ADS_USER @ ; trigger:'<null>'] in /home/audience2015/public_html/adwords/inicio/AdsSoapClient.php:216
+Stack trace:
+#0 /home/audience2015/public_html/adwords/inicio/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/audience2015/public_html/adwords/inicio/CustomerService.php(2914): AdsSoapClient->__soapCall('get', Array)
+#2 /home/audience2015/public_html/adwords/inicio/traedatos.php(34): CustomerService->get()
+#3 /home/audience2015/public_html/adwords/inicio/obtenercampanas.php(13): Traedatos->__construct('4/-jwh2STWBQ8cL...')
+#4 {main}
+  thrown in /home/audience2015/public_html/adwords/inicio/AdsSoapClient.php on line 216
+[05-Sep-2016 23:45:42 UTC] PHP Notice:  Undefined index: code in /home/audience2015/public_html/adwords/inicio/obtenercampanas.php on line 16
+[05-Sep-2016 23:45:43 UTC] PHP Fatal error:  Uncaught exception 'OAuth2Exception' with message '{
+  "error" : "invalid_request",
+  "error_description" : "Missing required parameter: code"
+}' in /home/audience2015/public_html/adwords/inicio/SimpleOAuth2Handler.php:119
+Stack trace:
+#0 /home/audience2015/public_html/adwords/inicio/SimpleOAuth2Handler.php(72): SimpleOAuth2Handler->MakeRequest('https://account...', Array)
+#1 /home/audience2015/public_html/adwords/inicio/traedatos.php(34): SimpleOAuth2Handler->GetAccessToken(Array, NULL, 'http://www.audi...')
+#2 /home/audience2015/public_html/adwords/inicio/obtenercampanas.php(20): Traedatos->creaUsuario(NULL)
+#3 {main}
+  thrown in /home/audience2015/public_html/adwords/inicio/SimpleOAuth2Handler.php on line 119
+[06-Sep-2016 16:08:55 UTC] PHP Fatal error:  Uncaught exception 'OAuth2Exception' with message '{
+  "error" : "invalid_grant",
+  "error_description" : "Invalid code."
+}' in /home/audience2015/public_html/adwords/inicio/SimpleOAuth2Handler.php:119
+Stack trace:
+#0 /home/audience2015/public_html/adwords/inicio/SimpleOAuth2Handler.php(72): SimpleOAuth2Handler->MakeRequest('https://account...', Array)
+#1 /home/audience2015/public_html/adwords/inicio/traedatos.php(34): SimpleOAuth2Handler->GetAccessToken(Array, '4/P6RgKefVHUjot...', 'http://www.audi...')
+#2 /home/audience2015/public_html/adwords/inicio/obtenercampanas.php(20): Traedatos->creaUsuario('4/P6RgKefVHUjot...')
+#3 {main}
+  thrown in /home/audience2015/public_html/adwords/inicio/SimpleOAuth2Handler.php on line 119
+[06-Sep-2016 20:17:39 UTC] PHP Warning:  Division by zero in /home/audience2015/public_html/adwords/inicio/traedatos.php on line 193
+[06-Sep-2016 20:17:39 UTC] PHP Warning:  Division by zero in /home/audience2015/public_html/adwords/inicio/traedatos.php on line 194
+[06-Sep-2016 20:17:39 UTC] PHP Warning:  Division by zero in /home/audience2015/public_html/adwords/inicio/traedatos.php on line 195
+[07-Sep-2016 03:20:12 UTC] PHP Notice:  Undefined offset: 1 in /home/audience2015/public_html/adwords/inicio/traedatos.php on line 168
+[07-Sep-2016 03:20:12 UTC] PHP Notice:  Undefined offset: 2 in /home/audience2015/public_html/adwords/inicio/traedatos.php on line 184
+[07-Sep-2016 03:20:12 UTC] PHP Warning:  Division by zero in /home/audience2015/public_html/adwords/inicio/traedatos.php on line 193
+[07-Sep-2016 03:20:12 UTC] PHP Warning:  Division by zero in /home/audience2015/public_html/adwords/inicio/traedatos.php on line 194
+[07-Sep-2016 03:20:12 UTC] PHP Warning:  Division by zero in /home/audience2015/public_html/adwords/inicio/traedatos.php on line 195
+[07-Sep-2016 03:22:21 UTC] PHP Notice:  Undefined offset: 1 in /home/audience2015/public_html/adwords/inicio/traedatos.php on line 168
+[07-Sep-2016 03:22:21 UTC] PHP Notice:  Undefined offset: 2 in /home/audience2015/public_html/adwords/inicio/traedatos.php on line 184
+[07-Sep-2016 03:22:21 UTC] PHP Warning:  Division by zero in /home/audience2015/public_html/adwords/inicio/traedatos.php on line 193
+[07-Sep-2016 03:22:21 UTC] PHP Warning:  Division by zero in /home/audience2015/public_html/adwords/inicio/traedatos.php on line 194
+[07-Sep-2016 03:22:21 UTC] PHP Warning:  Division by zero in /home/audience2015/public_html/adwords/inicio/traedatos.php on line 195
+[07-Sep-2016 03:43:15 UTC] PHP Fatal error:  Call to undefined method Traedatos::primerosDatos() in /home/audience2015/public_html/adwords/inicio/obtenercampanas.php on line 61
+[07-Sep-2016 03:57:49 UTC] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/audience2015/public_html/adwords/inicio/AdsSoapClient.php:216
+Stack trace:
+#0 /home/audience2015/public_html/adwords/inicio/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/audience2015/public_html/adwords/inicio/ManagedCustomerService.php(4485): AdsSoapClient->__soapCall('get', Array)
+#2 /home/audience2015/public_html/adwords/inicio/traedatos.php(316): ManagedCustomerService->get(Object(Selector))
+#3 /home/audience2015/public_html/adwords/inicio/obtenercampanas.php(57): Traedatos->muestraCuentas(Object(AdWordsUser))
+#4 {main}
+  thrown in /home/audience2015/public_html/adwords/inicio/AdsSoapClient.php on line 216
+[07-Sep-2016 04:01:00 UTC] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/audience2015/public_html/adwords/inicio/AdsSoapClient.php:216
+Stack trace:
+#0 /home/audience2015/public_html/adwords/inicio/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/audience2015/public_html/adwords/inicio/ManagedCustomerService.php(4485): AdsSoapClient->__soapCall('get', Array)
+#2 /home/audience2015/public_html/adwords/inicio/traedatos.php(316): ManagedCustomerService->get(Object(Selector))
+#3 /home/audience2015/public_html/adwords/inicio/obtenercampanas.php(57): Traedatos->muestraCuentas(Object(AdWordsUser))
+#4 {main}
+  thrown in /home/audience2015/public_html/adwords/inicio/AdsSoapClient.php on line 216
+[07-Sep-2016 12:56:59 UTC] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.NOT_ADS_USER @ ; trigger:'<null>'] in /home/audience2015/public_html/adwords/inicio/AdsSoapClient.php:216
+Stack trace:
+#0 /home/audience2015/public_html/adwords/inicio/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/audience2015/public_html/adwords/inicio/CustomerService.php(2914): AdsSoapClient->__soapCall('get', Array)
+#2 /home/audience2015/public_html/adwords/inicio/traedatos.php(44): CustomerService->get()
+#3 /home/audience2015/public_html/adwords/inicio/obtenercampanas.php(20): Traedatos->creaUsuario('4/K6vvHoJXDxBQG...')
+#4 {main}
+  thrown in /home/audience2015/public_html/adwords/inicio/AdsSoapClient.php on line 216
+[07-Sep-2016 12:57:04 UTC] PHP Fatal error:  Uncaught exception 'OAuth2Exception' with message '{
+  "error" : "invalid_grant",
+  "error_description" : "Invalid code."
+}' in /home/audience2015/public_html/adwords/inicio/SimpleOAuth2Handler.php:119
+Stack trace:
+#0 /home/audience2015/public_html/adwords/inicio/SimpleOAuth2Handler.php(72): SimpleOAuth2Handler->MakeRequest('https://account...', Array)
+#1 /home/audience2015/public_html/adwords/inicio/traedatos.php(34): SimpleOAuth2Handler->GetAccessToken(Array, '4/K6vvHoJXDxBQG...', 'http://www.audi...')
+#2 /home/audience2015/public_html/adwords/inicio/obtenercampanas.php(20): Traedatos->creaUsuario('4/K6vvHoJXDxBQG...')
+#3 {main}
+  thrown in /home/audience2015/public_html/adwords/inicio/SimpleOAuth2Handler.php on line 119
+[07-Sep-2016 12:57:19 UTC] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.NOT_ADS_USER @ ; trigger:'<null>'] in /home/audience2015/public_html/adwords/inicio/AdsSoapClient.php:216
+Stack trace:
+#0 /home/audience2015/public_html/adwords/inicio/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/audience2015/public_html/adwords/inicio/CustomerService.php(2914): AdsSoapClient->__soapCall('get', Array)
+#2 /home/audience2015/public_html/adwords/inicio/traedatos.php(44): CustomerService->get()
+#3 /home/audience2015/public_html/adwords/inicio/obtenercampanas.php(20): Traedatos->creaUsuario('4/rLe_kzdmmBKOD...')
+#4 {main}
+  thrown in /home/audience2015/public_html/adwords/inicio/AdsSoapClient.php on line 216
+[07-Sep-2016 12:57:42 UTC] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.NOT_ADS_USER @ ; trigger:'<null>'] in /home/audience2015/public_html/adwords/inicio/AdsSoapClient.php:216
+Stack trace:
+#0 /home/audience2015/public_html/adwords/inicio/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/audience2015/public_html/adwords/inicio/CustomerService.php(2914): AdsSoapClient->__soapCall('get', Array)
+#2 /home/audience2015/public_html/adwords/inicio/traedatos.php(44): CustomerService->get()
+#3 /home/audience2015/public_html/adwords/inicio/obtenercampanas.php(20): Traedatos->creaUsuario('4/4OgfgHb2zofXX...')
+#4 {main}
+  thrown in /home/audience2015/public_html/adwords/inicio/AdsSoapClient.php on line 216
+[21-Sep-2016 22:48:30 UTC] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.NOT_ADS_USER @ ; trigger:'<null>'] in /home/audience2015/public_html/adwords/inicio/AdsSoapClient.php:216
+Stack trace:
+#0 /home/audience2015/public_html/adwords/inicio/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/audience2015/public_html/adwords/inicio/CustomerService.php(2914): AdsSoapClient->__soapCall('get', Array)
+#2 /home/audience2015/public_html/adwords/inicio/traedatos.php(44): CustomerService->get()
+#3 /home/audience2015/public_html/adwords/inicio/obtenercampanas.php(20): Traedatos->creaUsuario('4/bTnUcOP-Dmf3f...')
+#4 {main}
+  thrown in /home/audience2015/public_html/adwords/inicio/AdsSoapClient.php on line 216
+[21-Sep-2016 22:48:43 UTC] PHP Fatal error:  Uncaught exception 'OAuth2Exception' with message '{
+  "error" : "invalid_grant",
+  "error_description" : "Invalid code."
+}' in /home/audience2015/public_html/adwords/inicio/SimpleOAuth2Handler.php:119
+Stack trace:
+#0 /home/audience2015/public_html/adwords/inicio/SimpleOAuth2Handler.php(72): SimpleOAuth2Handler->MakeRequest('https://account...', Array)
+#1 /home/audience2015/public_html/adwords/inicio/traedatos.php(34): SimpleOAuth2Handler->GetAccessToken(Array, '4/bTnUcOP-Dmf3f...', 'http://www.audi...')
+#2 /home/audience2015/public_html/adwords/inicio/obtenercampanas.php(20): Traedatos->creaUsuario('4/bTnUcOP-Dmf3f...')
+#3 {main}
+  thrown in /home/audience2015/public_html/adwords/inicio/SimpleOAuth2Handler.php on line 119
+[21-Sep-2016 22:48:46 UTC] PHP Fatal error:  Uncaught exception 'OAuth2Exception' with message '{
+  "error" : "invalid_grant",
+  "error_description" : "Code was already redeemed."
+}' in /home/audience2015/public_html/adwords/inicio/SimpleOAuth2Handler.php:119
+Stack trace:
+#0 /home/audience2015/public_html/adwords/inicio/SimpleOAuth2Handler.php(72): SimpleOAuth2Handler->MakeRequest('https://account...', Array)
+#1 /home/audience2015/public_html/adwords/inicio/traedatos.php(34): SimpleOAuth2Handler->GetAccessToken(Array, '4/bTnUcOP-Dmf3f...', 'http://www.audi...')
+#2 /home/audience2015/public_html/adwords/inicio/obtenercampanas.php(20): Traedatos->creaUsuario('4/bTnUcOP-Dmf3f...')
+#3 {main}
+  thrown in /home/audience2015/public_html/adwords/inicio/SimpleOAuth2Handler.php on line 119
+[21-Sep-2016 22:48:47 UTC] PHP Fatal error:  Uncaught exception 'OAuth2Exception' with message '{
+  "error" : "invalid_grant",
+  "error_description" : "Code was already redeemed."
+}' in /home/audience2015/public_html/adwords/inicio/SimpleOAuth2Handler.php:119
+Stack trace:
+#0 /home/audience2015/public_html/adwords/inicio/SimpleOAuth2Handler.php(72): SimpleOAuth2Handler->MakeRequest('https://account...', Array)
+#1 /home/audience2015/public_html/adwords/inicio/traedatos.php(34): SimpleOAuth2Handler->GetAccessToken(Array, '4/bTnUcOP-Dmf3f...', 'http://www.audi...')
+#2 /home/audience2015/public_html/adwords/inicio/obtenercampanas.php(20): Traedatos->creaUsuario('4/bTnUcOP-Dmf3f...')
+#3 {main}
+  thrown in /home/audience2015/public_html/adwords/inicio/SimpleOAuth2Handler.php on line 119
+[21-Sep-2016 22:48:48 UTC] PHP Fatal error:  Uncaught exception 'OAuth2Exception' with message '{
+  "error" : "invalid_grant",
+  "error_description" : "Code was already redeemed."
+}' in /home/audience2015/public_html/adwords/inicio/SimpleOAuth2Handler.php:119
+Stack trace:
+#0 /home/audience2015/public_html/adwords/inicio/SimpleOAuth2Handler.php(72): SimpleOAuth2Handler->MakeRequest('https://account...', Array)
+#1 /home/audience2015/public_html/adwords/inicio/traedatos.php(34): SimpleOAuth2Handler->GetAccessToken(Array, '4/bTnUcOP-Dmf3f...', 'http://www.audi...')
+#2 /home/audience2015/public_html/adwords/inicio/obtenercampanas.php(20): Traedatos->creaUsuario('4/bTnUcOP-Dmf3f...')
+#3 {main}
+  thrown in /home/audience2015/public_html/adwords/inicio/SimpleOAuth2Handler.php on line 119
+[21-Sep-2016 22:48:49 UTC] PHP Fatal error:  Uncaught exception 'OAuth2Exception' with message '{
+  "error" : "invalid_grant",
+  "error_description" : "Code was already redeemed."
+}' in /home/audience2015/public_html/adwords/inicio/SimpleOAuth2Handler.php:119
+Stack trace:
+#0 /home/audience2015/public_html/adwords/inicio/SimpleOAuth2Handler.php(72): SimpleOAuth2Handler->MakeRequest('https://account...', Array)
+#1 /home/audience2015/public_html/adwords/inicio/traedatos.php(34): SimpleOAuth2Handler->GetAccessToken(Array, '4/bTnUcOP-Dmf3f...', 'http://www.audi...')
+#2 /home/audience2015/public_html/adwords/inicio/obtenercampanas.php(20): Traedatos->creaUsuario('4/bTnUcOP-Dmf3f...')
+#3 {main}
+  thrown in /home/audience2015/public_html/adwords/inicio/SimpleOAuth2Handler.php on line 119
+[23-Sep-2016 14:52:01 UTC] PHP Fatal error:  Uncaught exception 'OAuth2Exception' with message '{
+  "error" : "invalid_grant",
+  "error_description" : "Invalid code."
+}' in /home/audience2015/public_html/adwords/inicio/SimpleOAuth2Handler.php:119
+Stack trace:
+#0 /home/audience2015/public_html/adwords/inicio/SimpleOAuth2Handler.php(72): SimpleOAuth2Handler->MakeRequest('https://account...', Array)
+#1 /home/audience2015/public_html/adwords/inicio/traedatos.php(34): SimpleOAuth2Handler->GetAccessToken(Array, '4/GltAnm609eqxa...', 'http://www.audi...')
+#2 /home/audience2015/public_html/adwords/inicio/obtenercampanas.php(20): Traedatos->creaUsuario('4/GltAnm609eqxa...')
+#3 {main}
+  thrown in /home/audience2015/public_html/adwords/inicio/SimpleOAuth2Handler.php on line 119
+[23-Sep-2016 14:52:05 UTC] PHP Fatal error:  Uncaught exception 'OAuth2Exception' with message '{
+  "error" : "invalid_grant",
+  "error_description" : "Code was already redeemed."
+}' in /home/audience2015/public_html/adwords/inicio/SimpleOAuth2Handler.php:119
+Stack trace:
+#0 /home/audience2015/public_html/adwords/inicio/SimpleOAuth2Handler.php(72): SimpleOAuth2Handler->MakeRequest('https://account...', Array)
+#1 /home/audience2015/public_html/adwords/inicio/traedatos.php(34): SimpleOAuth2Handler->GetAccessToken(Array, '4/GltAnm609eqxa...', 'http://www.audi...')
+#2 /home/audience2015/public_html/adwords/inicio/obtenercampanas.php(20): Traedatos->creaUsuario('4/GltAnm609eqxa...')
+#3 {main}
+  thrown in /home/audience2015/public_html/adwords/inicio/SimpleOAuth2Handler.php on line 119
+[23-Sep-2016 14:53:20 UTC] PHP Fatal error:  Uncaught exception 'OAuth2Exception' with message '{
+  "error" : "invalid_grant",
+  "error_description" : "Code was already redeemed."
+}' in /home/audience2015/public_html/adwords/inicio/SimpleOAuth2Handler.php:119
+Stack trace:
+#0 /home/audience2015/public_html/adwords/inicio/SimpleOAuth2Handler.php(72): SimpleOAuth2Handler->MakeRequest('https://account...', Array)
+#1 /home/audience2015/public_html/adwords/inicio/traedatos.php(34): SimpleOAuth2Handler->GetAccessToken(Array, '4/EAa5fBBUbmYLA...', 'http://www.audi...')
+#2 /home/audience2015/public_html/adwords/inicio/obtenercampanas.php(20): Traedatos->creaUsuario('4/EAa5fBBUbmYLA...')
+#3 {main}
+  thrown in /home/audience2015/public_html/adwords/inicio/SimpleOAuth2Handler.php on line 119
+[26-Sep-2016 14:26:28 UTC] PHP Notice:  Undefined index: code in /home/audience2015/public_html/adwords/inicio/obtenercampanas.php on line 16
+[26-Sep-2016 14:26:29 UTC] PHP Fatal error:  Uncaught exception 'OAuth2Exception' with message '{
+  "error" : "invalid_request",
+  "error_description" : "Missing required parameter: code"
+}' in /home/audience2015/public_html/adwords/inicio/SimpleOAuth2Handler.php:119
+Stack trace:
+#0 /home/audience2015/public_html/adwords/inicio/SimpleOAuth2Handler.php(72): SimpleOAuth2Handler->MakeRequest('https://account...', Array)
+#1 /home/audience2015/public_html/adwords/inicio/traedatos.php(34): SimpleOAuth2Handler->GetAccessToken(Array, NULL, 'http://www.audi...')
+#2 /home/audience2015/public_html/adwords/inicio/obtenercampanas.php(20): Traedatos->creaUsuario(NULL)
+#3 {main}
+  thrown in /home/audience2015/public_html/adwords/inicio/SimpleOAuth2Handler.php on line 119
+[26-Sep-2016 18:21:26 UTC] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] [AuthenticationError.CLIENT_CUSTOMER_ID_IS_REQUIRED @ ; trigger:'<null>'] in /home/audience2015/public_html/adwords/inicio/AdsSoapClient.php:216
+Stack trace:
+#0 /home/audience2015/public_html/adwords/inicio/AdsSoapClient.php(216): SoapClient->__soapCall('get', Array, NULL, Array, Array)
+#1 /home/audience2015/public_html/adwords/inicio/ManagedCustomerService.php(4485): AdsSoapClient->__soapCall('get', Array)
+#2 /home/audience2015/public_html/adwords/inicio/traedatos.php(381): ManagedCustomerService->get(Object(Selector))
+#3 /home/audience2015/public_html/adwords/inicio/obtenercampanas.php(41): Traedatos->muestraCuentas(Object(AdWordsUser))
+#4 {main}
+  thrown in /home/audience2015/public_html/adwords/inicio/AdsSoapClient.php on line 216
+[29-Sep-2016 18:59:43 UTC] PHP Notice:  Undefined property: Consulta::$correo_adwords in /home/audience2015/public_html/adwords/inicio/consulta.php on line 93
+[29-Sep-2016 18:59:43 UTC] PHP Notice:  Undefined property: Consulta::$correo_contacto in /home/audience2015/public_html/adwords/inicio/consulta.php on line 93
+[29-Sep-2016 19:01:29 UTC] PHP Notice:  Undefined property: Consulta::$correo_adwords in /home/audience2015/public_html/adwords/inicio/consulta.php on line 93
+[29-Sep-2016 19:01:29 UTC] PHP Notice:  Undefined property: Consulta::$correo_contacto in /home/audience2015/public_html/adwords/inicio/consulta.php on line 93
+[29-Sep-2016 19:04:37 UTC] PHP Notice:  Undefined property: Consulta::$correo_adwords in /home/audience2015/public_html/adwords/inicio/consulta.php on line 93
+[29-Sep-2016 19:04:37 UTC] PHP Notice:  Undefined property: Consulta::$correo_contacto in /home/audience2015/public_html/adwords/inicio/consulta.php on line 93
+[29-Sep-2016 20:03:14 UTC] PHP Notice:  Undefined property: Consulta::$correo_adwords in /home/audience2015/public_html/adwords/inicio/consulta.php on line 93
+[29-Sep-2016 20:03:14 UTC] PHP Notice:  Undefined property: Consulta::$correo_contacto in /home/audience2015/public_html/adwords/inicio/consulta.php on line 93
+[29-Sep-2016 20:11:48 UTC] PHP Notice:  Undefined property: Consulta::$correo_adwords in /home/audience2015/public_html/adwords/inicio/consulta.php on line 93
+[29-Sep-2016 20:11:48 UTC] PHP Notice:  Undefined property: Consulta::$correo_contacto in /home/audience2015/public_html/adwords/inicio/consulta.php on line 93
+[29-Sep-2016 20:13:41 UTC] PHP Notice:  Undefined property: Consulta::$correo_adwords in /home/audience2015/public_html/adwords/inicio/consulta.php on line 93
+[29-Sep-2016 20:13:41 UTC] PHP Notice:  Undefined property: Consulta::$correo_contacto in /home/audience2015/public_html/adwords/inicio/consulta.php on line 93
+[04-Oct-2016 18:37:23 UTC] PHP Notice:  Undefined property: Consulta::$correo_adwords in /home/audience2015/public_html/adwords/inicio/consulta.php on line 93
+[04-Oct-2016 18:37:23 UTC] PHP Notice:  Undefined property: Consulta::$correo_contacto in /home/audience2015/public_html/adwords/inicio/consulta.php on line 93
+[08-Oct-2016 00:56:43 UTC] PHP Notice:  Undefined property: Consulta::$correo_adwords in /home/audience2015/public_html/adwords/inicio/consulta.php on line 93
+[08-Oct-2016 00:56:44 UTC] PHP Notice:  Undefined property: Consulta::$correo_contacto in /home/audience2015/public_html/adwords/inicio/consulta.php on line 93

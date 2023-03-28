@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Audience - Optimizer</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" media="screen and (max-width: 991px)" href="css/estilos-xs-sm.css" />
+	<link rel="stylesheet" type="text/css" href="css/fixers.css">
+	<link rel="icon" type="image/x-icon" href="img/logo.ico">
+	<link rel="shortcut icon" type="image/x-icon" href="img/logo.ico">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/funciones.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			modificaAltura();
+			centraMenu();
+			centradoVertical();
+			inicioTimer();
+		});
+		$(window).resize(function(){
+			modificaAltura();
+			centraMenu();
+			centradoVertical();
+		});
+		$(window).scroll(function(){
+			cambiaActiveScrollUser();
+		});
+	</script>
+</head>
+<body>
+	<div id="#todo">
+		<!--
+			Primera pantalla del ONEPAGE de inicio
+		-->
+		<div id="page1" class="section">
+			
+				<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+					<ul class="nav navbar-nav">
+						<li id="li1" class="opciones-menu1"  onclick="cambiaAncla(1)"><a href="#"><img id="element1" src="img/objeto-inteligente-vectorial.png" class="margin-top-12 centradoY"></a></li>
+						<li id="li2" class="opciones-menu2"  onclick="cambiaAncla(2)"><p id="element2" href="#" class="margin-top-21-5 centradoY">¿Por qué usar Optimizer?</p></li>
+						<li id="li3" class="opciones-menu2" onclick="cambiaAncla(3)"><p id="element3" href="#" class="margin-top-32 centradoY">¿Cómo funciona?</p></li>
+						<li id="li4" class="opciones-menu2" onclick="cambiaAncla(4)"><p id="element4" href="#" class="margin-top-48 centradoY">Testimonios</p></li>
+						<li id="li5" class="opciones-menu2" onclick="cambiaAncla(5)"><p id="element5" href="#" class="margin-top-45 centradoY">Contáctanos</p></li>
+					</ul>
+				</nav>
+				<div id="first">
+					<div id="texto-inicial" class="col-xs-12 no-padding texto-inicial">
+						<div id="texto-descubre" class="col-xs-12 col-md-8 col-md-offset-2">
+							Descubre rapidamente la salud de tus campañas de
+							Google Adwords con Optimizer, un Software de Análisis
+							de Performance
+						</div>
+						<br /><br /><br /><br />
+						<div class="col-md-12">
+							<div id="boton-formulario">
+								<button type="button" id="boton-quiero" class="btn btn-warning btn-lg" onclick="abreForm()">Quiero mi informe</button>
+							</div>
+						</div>
+						<br /><br />
+						<div class="col-md-12">
+							<div id="chevron" onclick="chevronSiguiente()"></div>
+						</div>
+					</div>
+				</div>
+						
+		</div><!--Fin de la primera pantalla-->
+
+
+
+		<!--
+			Pantalla de formulario del ONEPAGE de inicio
+		-->
+		<div id="page-form" style="display: none;" class="col-md-12 section">
+			<div class="col-md-12">
+				<div class="col-md-4 no-padding form-columna"></div>
+				<div class="col-md-4 no-padding form-columna">
+					<form action="inicio/index.php" method="post" onsubmit="return validaform()">
+						<div class="col-md-12 margin-top-primer-campo">
+							Nombre
+						</div>
+						<div class="col-md-12">
+							<input type="text" name="txtNombre" id="txtNombre" class="form-control" onkeypress="bordegris(0)">
+						</div>
+						<div class="col-md-12 margin-top-campos">
+							Apellido
+						</div>
+						<div class="col-md-12">
+							<input type="text" name="txtApellido" id="txtApellido" class="form-control" onkeypress="bordegris(1)">
+						</div>
+						<div class="col-md-12 margin-top-campos">
+							Correo asociado a Adwords
+						</div>
+						<div class="col-md-12">
+							<input type="text" name="txtCorreoAdwords" id="txtCorreoAdwords" class="form-control" onkeypress="bordegris(2)">
+						</div>
+						<div class="col-md-12 margin-top-campos">
+							Correo de Empresa
+						</div>
+						<div class="col-md-12">
+							<input type="text" name="txtCorreoContacto" id="txtCorreoContacto" class="form-control" onkeypress="bordegris(3)">
+						</div>
+						<div class="col-md-12 margin-top-campos" id="check-acepto">
+							<input type="checkbox" id="acepto" name="acepto" onclick="bordegris(4)"><label for="acepto"><a href="#" id="link-acepto">&nbsp;Acepto los términos y condiciones</a></label>
+						</div>
+						<div class="col-md-12 margin-top-campos">
+							<input type="submit" id="boton" name="enviar" value="Quiero mi informe" class="btn btn-warning btn-lg centradoX">
+						</div>
+					</form>
+				</div>
+				<div class="col-md-4 no-padding form-columna"></div>
+			</div>
+		</div><!--Fin de la pantalla de formulario-->
+		<div style="clear: both;"></div>
+
+
+		<!--
+			Segunda pantalla del ONEPAGE de inicio
+		-->
+		<div id="page2" class="section">
+			<div class="col-md-12 no-padding">
+				<p id="text-por-que">
+					¿Por qué usar optimizer?
+				</p>
+				<p id="text-optimizer-es" class="col-md-8 col-md-offset-2 no-padding">
+					Optimizer es un Software de Análisis de Performance de Campañas, que logra analizar de forma simple e Inteligente la salud de los principales indicadores de campaña. Optimizer sugiere mejoras para optimizar el rendimiento de tus campañas. Con Optimizer lograrás comprender en segundos que tan bien lo estás haciendo.
+				</p>
+			</div>
+			<div id="circulos" class="col-md-12 no-padding">
+				<div id="primer-circulo" class="col-md-2 col-md-offset-2 no-padding">
+					<div id="light-bulb"></div>
+					<div class="text-bajo-circulo">
+						Inteligente
+					</div>
+					<div class="linea-hr col-md-12 no-padding"></div>
+					<p class="col-md-12 texto-bajo-linea-hr no-padding">
+						Obtendrás un Informe a la medida de tu campaña, donde podrás detectar errores y accionar medidas correctivas. Optimizer rescata y hace comprensible información de la API de Google para expresarla como todo un experto.
+					</p>
+				</div>
+				<div id="segundo-circulo" class="col-md-2 col-md-offset-1 no-padding">
+					<div id="flash"></div>
+					<div class="text-bajo-circulo">
+						Rápido
+					</div>
+					<div class="linea-hr col-md-12 no-padding"></div>
+					<p class="col-md-12 texto-bajo-linea-hr no-padding">
+						Ganarás tiempo preciado para otras laborales. Optimizer entrega un Informe Personalizado y a la medida en segundos. Ya no es necesario ser un experto en análisis de campañas para corregir errores y optimizar el rendimiento de campañas.
+					</p>
+				</div>
+				<div id="tercer-circulo" class="col-md-2 col-md-offset-1 no-padding">
+					<div id="thumbs-up"></div>
+					<div class="text-bajo-circulo">
+						Simple
+					</div>
+					<div class="linea-hr col-md-12 no-padding"></div>
+					<p class="col-md-12 texto-bajo-linea-hr no-padding">
+						Podrás comprender de forma simple, mediante información gestionable la salud de tus campañas. Estás a un click de comprender como mejorar campañas y obtener mayores resultados.
+					</p>
+				</div>
+			</div>
+		</div><!--Fin de la segunda pantalla-->	
+		<div style="clear: both;"></div>
+
+		<!--
+			Tercera pantalla del ONEPAGE de inicio
+		-->
+		<div id="page3" class="section">
+			<div class="col-md-12 no-padding" style="height: 100%">
+				<div id="izquierda" class="col-xs-0"></div>
+				<div id="derecha" class="col-md-12 no-padding">
+					<div class="col-md-11 col-md-offset-1 no-padding" style="height: 100%">
+						<div id="textos-derecha" class="col-md-9 no-padding">
+							<p id="texto-derecha-como-funciona" class="col-xs-11 col-md-offset-1 no-padding">
+								¿Cómo funciona?
+							</p>
+							<ul>
+								<li>
+									<div class="soft">
+										Optimizer consulta los datos directamente a los servidores de <b>Google Adwords</b>
+									</div>
+								</li>
+								<li>
+									<div class="soft">
+										Los datos obtenidos por Optimizer están <b>siempre actualizados</b>
+									</div>
+								</li>
+								<li>
+									<div class="soft">
+										Optimizer consulta solo <b>los datos que tú nos permites consultar</b>
+									</div>
+								</li>
+								<li>
+									<div class="soft">
+										Optimizer <b>no guardará tu información pesonal</b>, ni la comercial de tus cuentas
+									</div>
+								</li>
+								<li>
+									<div class="soft">
+										Una vez que Optimizer realiza los cálculos del performance de tu campaña, <b>todos los datos son eliminados de nuestros servidores</b>
+									</div>
+								</li>
+								<li>
+									<div class="soft">
+										Optimizer utiliza una conexión interna con Google y <b>por eso NUNCA guardaremos tu contraseña</b>
+									</div>
+								</li>
+								<li>
+									<div class="soft">
+										Una vez que te entregamos los resultados, Optimizer no puede volver a consultar tus datos hasta que realices el proceso nuevamente
+									</div>
+								</li>
+							</ul>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div><!--Fin de la segunda pantalla-->
+		<div style="clear: both;"></div>
+
+		<!--
+			Cuarta pantalla del ONEPAGE de inicio
+		-->
+		<div id="page4" class="section">
+			<div class="col-md-8 col-md-offset-2 no-padding" style="height: 100%">
+				<p id="comentario1" class="col-md-12 no-padding comentario centradoY">
+					"Una solución indispensable para auditar procesos complejos"
+				</p>
+				<p id="comentario2" class="col-md-12 no-padding comentario centradoY" style="display: none">
+					"Me impresiono la simpleza del proceso"
+				</p>
+				<p id="comentario3" class="col-md-12 no-padding comentario centradoY" style="display: none">
+					"La rapidez y precisión de los resultados es lo mejor"
+				</p>
+			</div>
+		</div><!--Fin de la segunda pantalla-->
+		<div style="clear: both;"></div>
+
+		<!--
+			Quinta pantalla del ONEPAGE de inicio
+		-->
+		<div id="page5" class="section">
+			<div class="col-md-12 no-padding" style="height: 100%">
+				<div id="arriba" class="col-md-12 no-padding">
+					<div id="izquierda" class="col-md-6 no-padding">
+						<div class="col-md-12 no-padding" id="row-google">
+							<div id="google-partner"></div>
+						</div>
+					</div>
+					<div id="derecha" class="col-md-6 no-padding">
+						<div id="envuelve-todo" class="col-md-12 no-padding centradoY">
+							<div id="envuelve-texto" class="col-md-12 no-padding">
+								<div id="texto-ellos-confiaron">
+									Ellos confiaron en Optimizer
+								</div>
+							</div>
+							<div id="envuelve-circulos" class="col-md-12 no-padding">
+								<div class="circulo"></div>
+								<div class="circulo"></div>
+								<div class="circulo"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="abajo" class="col-md-12 no-padding">
+					<div id="izquierda" class="col-md-3 col-md-offset-1 col-lg-1 col-lg-offset-2 no-padding">
+						<div id="logo" class="col-md-10 col-md-offset-1 col-lg-12 centradoY"></div>
+					</div>
+
+
+					<div id="centro" class="col-md-5 col-lg-3 col-lg-offset-2 no-padding">
+						<div id="opciones" class="col-md-12 no-padding centradoY">
+							<div class="textos col-md-4 col-lg-4 no-padding">
+								Obtener mi reporte
+							</div>
+							<div class="textos col-md-4 col-lg-4 no-padding">
+								Terminos y condiciones
+							</div>
+							<div class="textos col-md-4 col-lg-4 no-padding">
+								Contactanos
+							</div>
+							<div id="contacto" class="col-md-10 no-padding">
+								Audience © 2016 - www.audience.cl - Santa Beatriz 100, Oficina 503 - Providencia +56 (2) 3224 6444 / +56 (2) 3224 6445
+							</div>
+						</div>
+					</div>
+
+
+					<div id="derecha" class="col-md-3 col-lg-4 no-padding">
+						<div id="botones" class="col-md-12 no-padding centradoY">
+							<div id="facebook" class="col-md-1 col-md-offset-1"></div>
+							<div id="youtube" class="col-md-1 col-md-offset-1"></div>
+							<div id="linkedin" class="col-md-1 col-md-offset-1"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--Fin de la segunda pantalla-->		
+	</div>
+
+	<!-- 
+		JS para Boostrap
+	-->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>
